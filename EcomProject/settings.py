@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'UserApp',
     'mptt',
     'crispy_forms',
+    'storages'
 
 
 ]
