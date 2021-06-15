@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'UserApp',
     'mptt',
     'crispy_forms',
-    'storages'
+
 
 
 ]
@@ -168,8 +168,8 @@ CKEDITOR_CONFIGS = {
 
 ###################################
 # Django Storages
-DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
+#DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
 DROPBOX_OAUTH2_TOKEN = 'UHN7yPWsI9cAAAAAAAAAAV6kd3Q7eQVs487czu4EELuBmIE0nX_CWud6Q186Q77v'
 
-import django_heroku
-django_heroku.settings(locals())
+#import django_heroku
+#django_heroku.settings(locals())
