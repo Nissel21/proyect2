@@ -170,3 +170,5 @@ CKEDITOR_CONFIGS = {
 DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
 DROPBOX_OAUTH2_TOKEN = 'UHN7yPWsI9cAAAAAAAAAAV6kd3Q7eQVs487czu4EELuBmIE0nX_CWud6Q186Q77v'
 
+import django_heroku
+django_heroku.settings(locals())
